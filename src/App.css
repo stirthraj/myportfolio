@@ -3,36 +3,96 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  font-size: 48px;
+  /* height: 20vmin; */
   pointer-events: none;
+  font-family: 'Corinthia', cursive;
+  margin-bottom: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    animation: mymove infinite 5s linear;
+    margin-bottom: 20px;
+
   }
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+} */
+
+@keyframes mymove {
+  0% {
+    /* top: 0px; */
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 250px;
+  }
+
+  100% {
+    /* top: 200px; */
+    /* background: rgb(0, 0, 0); */
+    background: transparent;
+    color: rgb(255, 255, 255);
+    width: 400px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex>a {
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: transparent;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.parallax {
+  height: 100vh;
+  background-image: url("../public/para1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

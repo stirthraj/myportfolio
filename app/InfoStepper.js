@@ -7,7 +7,6 @@ import StepContent from "@mui/material/StepContent";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { PropTypes } from "prop-types";
 
 export default function VerticalLinearStepper({ steps }) {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -39,7 +38,10 @@ export default function VerticalLinearStepper({ steps }) {
               {step.label}
             </StepLabel>
             <StepContent>
-              <Typography>{step.description}</Typography>
+              <Typography
+                variant="p"
+                dangerouslySetInnerHTML={{ __html: step.description }}
+              />
               <Box sx={{ mb: 2 }}>
                 <div>
                   <Button

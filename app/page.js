@@ -12,9 +12,13 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.hero}></div>
       <DrawerAppBar />
+      <div id="about" />
       <AboutCard />
+
       <Info />
+
       <Album />
+
       <StickyFooter />
     </main>
   );

@@ -18,7 +18,12 @@ import ProfileCard from "./ProfileCard";
 import AboutCard from "./AboutCard";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Services", "Pages", "Blog", "Contact"];
+const navItems = [
+  { name: "Home", link: "#" },
+  { name: "About", link: "#about" },
+  { name: "Pages", link: "#pages" },
+  { name: "Contact", link: "#contact" },
+];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -36,9 +41,9 @@ function DrawerAppBar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+          <ListItem key={item.name} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+              <ListItemText href={item.link} primary={item.name} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -81,8 +86,8 @@ function DrawerAppBar(props) {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                {item}
+              <Button key={item.name} href={item.link} sx={{ color: "#fff" }}>
+                {item.name}
               </Button>
             ))}
           </Box>

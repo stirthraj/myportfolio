@@ -36,14 +36,15 @@ export default function StickyFooter() {
           display: "flex",
           flexDirection: "column",
           width: "100%",
-          padding: "0rem 6rem",
+          padding: "0% 10%",
           backgroundImage: "linear-gradient(to right, #54d6ff, #0071ff)",
           // minHeight: "100vh",
         }}
       >
         <CssBaseline />
+        <div id="contact" />
         <Grid container spacing={2}>
-          <Grid item xs={8}>
+          <Grid item xs={12} sm={6} md={4} lg={8}>
             <Typography variant="h3">Tirth Raj Kumar</Typography>
             <Typography variant="p">
               Experienced Full Stack Developer | Immediate Joiner
@@ -52,7 +53,7 @@ export default function StickyFooter() {
             </Typography>
           </Grid>
 
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
             <Typography variant="h4">Follow me</Typography>
             <div
               style={{

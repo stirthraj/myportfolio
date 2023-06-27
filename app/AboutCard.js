@@ -34,7 +34,14 @@ export default function AboutCard() {
           </Grid>
           <Grid item lg={6} md={6} xs={12}>
             <Grid container spacing={2}>
-              <Grid item xs={4}>
+              <Grid
+                style={{
+                  border: "1px solid #fff",
+                  borderRadius: "4px",
+                }}
+                item
+                xs={4}
+              >
                 <Typography variant="h6" component="h6">
                   5
                 </Typography>
@@ -42,7 +49,11 @@ export default function AboutCard() {
                   React Projects
                 </Typography>
               </Grid>
-              <Grid item xs={4}>
+              <Grid
+                style={{ border: "1px solid #fff", borderRadius: "4px" }}
+                item
+                xs={4}
+              >
                 <Typography variant="h6" component="h6">
                   3
                 </Typography>
@@ -50,7 +61,11 @@ export default function AboutCard() {
                   Redux Projects
                 </Typography>
               </Grid>
-              <Grid item xs={4}>
+              <Grid
+                style={{ border: "1px solid #fff", borderRadius: "4px" }}
+                item
+                xs={4}
+              >
                 <Typography variant="h6" component="h6">
                   3
                 </Typography>

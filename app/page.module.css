@@ -1,0 +1,19 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 6rem; */
+  min-height: 100vh;
+  background-color: #e2e1e1;
+  color: black;
+}
+.hero{
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(to right, #54d6ff, #0071ff);
+  z-index:1;
+}

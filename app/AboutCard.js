@@ -7,8 +7,7 @@ export default function AboutCard() {
       container
       pt={4}
       spacing={2}
-      padding={"6rem"}
-      sx={{ marginBottom: "30px" }}
+      sx={{ marginBottom: "30px", padding: "0% 10%" }}
     >
       <Grid item lg={6} md={6} xs={12}>
         <Grid container direction="column" rowGap={4} spacing={2}>
@@ -77,7 +76,7 @@ export default function AboutCard() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item lg={6} md={6} xs={12}>
         <Stack
           spacing={2}
           direction="column"

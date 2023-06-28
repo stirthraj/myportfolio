@@ -19,12 +19,16 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 const cards = [
   {
     image: "/portfolio.png",
-    title: "Portfolio",
+    title: "Portfolio Template",
+    description:
+      "Minimalistic and responsive single-page portfolio design template built with Next.js for a sleek and modern presentation.",
     link: "https://tirthrajkumar.vercel.app/",
   },
   {
     image: "/school.png",
-    title: "School",
+    title: "School Template",
+    description:
+      "Next.js template for a single-page school design, featuring a clean and intuitive layout to showcase educational content.",
     link: "https://school1-theta.vercel.app/",
   },
 ];
@@ -84,6 +88,9 @@ export default function Album() {
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
                     {card.title}
+                  </Typography>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    {card.description}
                   </Typography>
                 </CardContent>
                 <CardActions>

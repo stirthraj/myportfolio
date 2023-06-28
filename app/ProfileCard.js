@@ -46,6 +46,7 @@ export default function ProfileCard() {
         color: "black",
         borderRadius: "8px",
         padding: "12px",
+        marginTop: "12px",
       }}
     >
       <Grid

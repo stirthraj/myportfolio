@@ -42,46 +42,47 @@ export default function Info() {
   };
   const work = [
     {
-      label: "BizzTm Pvt Ltd",
-      description: `<b>Key Responsibilities: 
-      </b>      <p>
-      Design, develop, and maintain a highly scalable BizzTm dashboard that enables teams to efficiently manage orders and products. Collaborate with stakeholders to gather requirements and translate them into technical specifications.</p>
-     <b> Skills: React,Redux,Chart,MaterialUi,Tailwind,Git,Amplify,EC2,GraphQl</b>
+      label: `<p>BizzTm Pvt Ltd  (<b>Software Developer Engineer</b>)</p>`,
+      description: `
+      <p>
+      <b>Key Responsibilities: 
+      </b>
+      Design, develop, and maintain a highly scalable BizzTm dashboard that enables teams to efficiently manage orders and products. Collaborate with stakeholders to gather requirements and translate them into technical specifications.<br/><b> Skills: React, Redux,Chart, MaterialUi, Tailwind, Git, Amplify, EC2, GraphQl</b></p>
+     
       `,
     },
     {
-      label: "PixelPay Media Pvt Ltd",
-      description: `<b>Facebook Reporting Tool: </b> 
-      <p>Customize and tailor the Facebook ad automation dashboard to meet the specific needs of our organization.</p>
+      label: `<p>PixelPay Media Pvt Ltd  (<b>Frontend Developer</b>)</p>`,
+      description: ` 
+      <p><b>Facebook Reporting Tool: </b>Customize and tailor the Facebook ad automation dashboard to meet the specific needs of our organization.</p>
 
-     <b> Performance Portal:</b>  <p>Independently develop a comprehensive Employee Management reporting panel from scratch to production. Design, implement, and enhance the portal to provide performance insights, analytics, and reporting capabilities for effective employee management.</p>
-      <b>Coupon Admin Panel:</b>   <p> Design and develop a coupon management panel and API endpoints for coupon websites. This helps to manage coupons, track usage, and provide API endpoints for seamless integration with coupon websites.</p>
-     <b> Dashboard Content Nation:</b>    <p>Website management tool: manage multiple accounts in one place.</p>
-      <b>Website, CMS & Downloader Tools:</b><p>  Optimize the website and downloading tools for videos, songs, and images. Single-page landing pages, CMS setup, and basic SEO. 
+      <p><b> Performance Portal:</b> Independently develop a comprehensive Employee Management reporting panel from scratch to production. Design, implement, and enhance the portal to provide performance insights, analytics, and reporting capabilities for effective employee management.</p>
+         <p><b>Coupon Admin Panel:</b> Design and develop a coupon management panel and API endpoints for coupon websites. This helps to manage coupons, track usage, and provide API endpoints for seamless integration with coupon websites.</p>
+         <p><b> Dashboard Content Nation:</b>Website management tool: manage multiple accounts in one place.</p>
+     <p> <b>Website, CMS & Downloader Tools:</b>  Optimize the website and downloading tools for videos, songs, and images. Single-page landing pages, CMS setup, and basic SEO. <br/><b> Skills: React, Redux, Chart, MaterialUi, Amplify, Git </b>
       </p>
-      <b> Skills: React,Redux,Chart,MaterialUi ,Amplify,Git </b>
+      
                                              
         `,
     },
     {
-      label: "Biztechnosys Pvt Ltd",
-      description: `<b>Key Responsibilities:  </b> <p>Customize Vtiger CRM by developing new modules and creating webpages to meet specific business requirements. Implement tailored solutions, integrate third-party systems, and enhance the CRM's functionality for optimal performance and improved customer relationship management.</p>`,
+      label: `<p>Biztechnosys Pvt Ltd  (<b>PHP Developer Intern</b>)</p>`,
+      description: ` <p><b>Key Responsibilities:  </b>Customize Vtiger CRM by developing new modules and creating webpages to meet specific business requirements. Implement tailored solutions, integrate third-party systems, and enhance the CRM's functionality for optimal performance and improved customer relationship management.</p>`,
     },
   ];
 
   const education = [
     {
-      label:
-        "B.Tech | Information Technology | C.V. Raman Global University,Odisha",
-      description: `Graduated in 2016-2020 with a 7.17 CGPA. Also completed a C-DAC Diploma in IT Infrastructure, gaining knowledge in various modern technologies such as Hadoop, web development, networking, software development life cycle, and Android development.`,
+      label: `<p>B.Tech | IT | C.V. Raman Global University,Odisha</p>`,
+      description: `<p>Graduated in 2016-2020 with a 7.17 CGPA. Also completed a C-DAC Diploma in IT Infrastructure, gaining knowledge in various modern technologies such as Hadoop, web development, networking, software development life cycle, and Android development.</p>`,
     },
     {
-      label: "12th | S.K.B. Degree College,Bihar",
-      description: `Completed intermediate in 2016 with a 72.8% score.`,
+      label: `<p>12th | S.K.B. Degree College,Bihar</p>`,
+      description: `<p>Completed intermediate in 2016 with a 72.8% score.</p>`,
     },
     {
-      label: "10th | Islamia Urdu Academy,Bihar",
-      description: `Completed matriculation in 2013 with a 75.8% score.`,
+      label: `<p>10th | Islamia Urdu Academy,Bihar</p>`,
+      description: `<p>Completed matriculation in 2013 with a 75.8% score.</p>`,
     },
   ];
 

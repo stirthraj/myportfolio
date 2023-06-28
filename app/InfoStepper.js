@@ -35,7 +35,10 @@ export default function VerticalLinearStepper({ steps }) {
                 ) : null
               }
             >
-              {step.label}
+              <Typography
+                variant="p"
+                dangerouslySetInnerHTML={{ __html: step.label }}
+              />
             </StepLabel>
             <StepContent>
               <Typography
